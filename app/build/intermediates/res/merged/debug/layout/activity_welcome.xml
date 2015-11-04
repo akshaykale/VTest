@@ -1,0 +1,7 @@
+<com.theark.vtest.ParallaxViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parallaxviewpager"
+    android:layout_width="match_parent"
+    android:background="@drawable/classroom_a"
+    android:layout_height="match_parent"/>
+<!-- From: file:/F:/GitHub_projects/VTest/main/app/src/main/res/layout/activity_welcome.xml -->

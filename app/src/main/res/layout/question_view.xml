@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="#ff5900"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_que_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+<RadioGroup
+    android:id="@+id/radioGroup1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/rb_opt_a_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true" android:textColor="#000000"
+        android:text="RadioButton" />
+
+    <RadioButton
+        android:id="@+id/rb_opt_b_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#000000"
+        android:text="RadioButton" />
+
+    <RadioButton
+        android:id="@+id/rb_opt_c_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#000000"
+        android:text="RadioButton" />
+    
+    <RadioButton
+        android:id="@+id/rb_opt_d_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#000000"
+        android:text="RadioButton" />
+</RadioGroup>
+
+</LinearLayout>

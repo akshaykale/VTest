@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="VTest is an Virtual Test Application\nTeacher will launch the test and student can view it on their devices\n\nDeveloped by: Akshay Kale\nTE 2015, Comp Dep,PICT, Pune\n\nfeedback:\ntheark1204@gmail.com"
+        android:textColor="#fafaff"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
+<!-- From: file:/F:/GitHub_projects/VTest/main/app/src/main/res/layout/fragment_b.xml -->
